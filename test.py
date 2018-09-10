@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 import unittest
-import funcionalidad
+from funcionalidad import *
 
 
 class Test(unittest.TestCase):
@@ -10,11 +10,9 @@ class Test(unittest.TestCase):
 # >>>>>> Estructura para la codificacion de los casos de prueba <<<<<<
 # Reemplazar EL ID por el numero correspondiente del caso de prueba
     
-    def test_prueba_ID(self):
-        self.assertEquals()
+    
     def test_prueba_2(self):
     	resultado = aprobar_prestamo(3,75,"Divorced",3,4)
-    	print(resultado)
         self.assertEquals(resultado,"Aprobada")
     def test_prueba_3(self):
     	resultado = aprobar_prestamo(3,75,"Divorced",0,4)
