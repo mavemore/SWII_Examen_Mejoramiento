@@ -45,6 +45,6 @@ class Test(unittest.TestCase):
     def test_prueba_9(self):
         estado = AprobarPrestamo(2,70,"divorciado",-2,1.4)
         self.assertEquals(estado, "Numero de dependientes incorrectos.")
-
+ 
 if __name__ == '__main__':
     unittest.main()
