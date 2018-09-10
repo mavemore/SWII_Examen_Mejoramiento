@@ -2,6 +2,8 @@
 from __future__ import unicode_literals
 
 def aprobar_prestamo(anios_trabajo,cap_endeudamiento,estado_civil,anios_vivienda,dependientes):
+	"""Funcion que determina si un prestamo es aprobado o no, las validaciones de los valores ingresados (es decir si son aberrantes), se excluyeron,
+pues estas validaciones deberían de hacerse en otra funcion"""
 	estado=""
 	if(anios_trabajo<2): #1
 		if(cap_endeudamiento<75): #2
