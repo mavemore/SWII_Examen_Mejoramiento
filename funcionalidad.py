@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 def AprobarPrestamo(anios_trabajo, capacidad_endeudamiento, estado_civil, dependientes, anios_vivencia_actual):
+    """Funcion para saber si se aprueba el prestamo a una persona"""
     if anios_trabajo < 2:
         if capacidad_endeudamiento < 75:
             if anios_vivencia_actual < 1.5:
